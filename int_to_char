@@ -1,0 +1,16 @@
+public class IntToCharExample1{  
+public static void main(String args[]){  
+int a=65;  
+char c=(char)a;  
+System.out.println(a);  
+}}  
+
+
+//////////////////////////
+public class IntToCharExample6{  
+public static void main(String args[]){  
+int REDIX=16;//redix 16 is for Hexadecimal value  
+int a=10;    
+char c=Character.forDigit(a,REDIX);    
+System.out.println(c);   
+}} 
