@@ -1,0 +1,23 @@
+public class CharToIntExample1{  
+public static void main(String args[]){  
+char c='a';  
+char c2='1';  
+int a=c;  
+int b=c2;  
+System.out.println(a);  
+System.out.println(b);  
+}}  
+/////////////////////////////////////////
+public class CharToIntExample2{  
+public static void main(String args[]){  
+char c='1';  
+int a=Character.getNumericValue(c);  
+System.out.println(a);  
+}}  
+//////////////////////////
+public class CharToIntExample3{  
+public static void main(String args[]){  
+char c='1';  
+int a=Integer.parseInt(String.valueOf(c));  
+System.out.println(a);  
+}}  
